@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demo · TEMIS</title>
+<meta name="description" content="TEMIS: virtual legal clinic powered by generative AI. Clear legal guidance when you don't know where to start.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect width='24' height='24' rx='6' fill='%230E2238'/%3E%3Cpath d='M12 5v13M9 18h6M6 8h12M6 8l-2.5 5h5zM18 8l-2.5 5h5z' fill='none' stroke='%23A9844B' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="topbar"><div class="wrap"><span><span class="en">Universidad Militar Nueva Granada · Emerging technology proposal</span><span class="es">Universidad Militar Nueva Granada · Propuesta de tecnología emergente</span></span>
+<div class="lang" role="group" aria-label="Language"><button type="button" data-l="en" aria-pressed="true">EN</button><button type="button" data-l="es" aria-pressed="false">ES</button></div></div></div>
+<header class="site"><div class="wrap">
+<a class="logo" href="index.html" aria-label="TEMIS home" style="color:var(--navy)"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".55"/><circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width=".8" opacity=".35"/><g fill="none" stroke="#A9844B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M32 15v32M24 48h16"/><path d="M17 22h30"/><path d="M17 22l-5 11h10zM47 22l-5 11h10z"/><path d="M12 33a5 3 0 0 0 10 0M42 33a5 3 0 0 0 10 0"/></g><circle cx="32" cy="15" r="2.4" fill="#A9844B"/></svg><span><span class="name">TEMIS</span><span class="tagline"><span class="en">Virtual legal clinic</span><span class="es">Consultorio jurídico virtual</span></span></span></a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="mainnav"><span class="en">Menu</span><span class="es">Menú</span></button>
+<nav class="main" id="mainnav" aria-label="Main"><a href="index.html"><span class="en">Home</span><span class="es">Inicio</span></a><a href="solution.html"><span class="en">Solution</span><span class="es">Solución</span></a><a href="demo.html" aria-current="page"><span class="en">Demo</span><span class="es">Demo</span></a><a href="research.html"><span class="en">Research</span><span class="es">Investigación</span></a><a href="video.html"><span class="en">Video</span><span class="es">Video</span></a><a href="contact.html"><span class="en">Contact</span><span class="es">Contacto</span></a></nav>
+<a class="btn primary sm cta-nav" href="demo.html"><span class="en">Try TEMIS</span><span class="es">Probar TEMIS</span></a>
+</div></header>
+<main>
+<section class="page-hero"><svg class="columns" viewBox="0 0 520 300" aria-hidden="true" fill="none" stroke="#fff" stroke-width="2"><path d="M20 90 L260 10 L500 90 Z"/><path d="M40 90h440M30 100h460"/><path d="M60 110v150M90 110v150M54 104h42M54 266h42"/><path d="M67 114v142"/><path d="M75 114v142"/><path d="M160 110v150M190 110v150M154 104h42M154 266h42"/><path d="M167 114v142"/><path d="M175 114v142"/><path d="M260 110v150M290 110v150M254 104h42M254 266h42"/><path d="M267 114v142"/><path d="M275 114v142"/><path d="M360 110v150M390 110v150M354 104h42M354 266h42"/><path d="M367 114v142"/><path d="M375 114v142"/><path d="M440 110v150M470 110v150M434 104h42M434 266h42"/><path d="M447 114v142"/><path d="M455 114v142"/><path d="M20 280h480M10 292h500"/></svg><div class="wrap">
+<div class="crumbs"><a href="index.html">TEMIS</a> / <span class="en">Demo</span><span class="es">Demo</span></div>
+<h1 class="h-xl" style="max-width:16ch"><span class="en">Try TEMIS with a real-life case.</span><span class="es">Prueba TEMIS con un caso de la vida real.</span></h1>
+<p class="lead"><span class="en">Pick an example or write your own problem. This demo uses simulated answers to show how the product works.</span><span class="es">Elige un ejemplo o escribe tu propio problema. Este demo usa respuestas simuladas para mostrar cómo funciona el producto.</span></p></div></section>
+<section><div class="wrap"><div class="demo-wrap">
+ <div class="howto">
+  <span class="eyebrow"><span class="en">What you'll see</span><span class="es">Lo que verás</span></span>
+  <h2 class="h-md"><span class="en">One conversation, five moves</span><span class="es">Una conversación, cinco movimientos</span></h2>
+  <ol>
+   <li><span><span class="en"><b>Your story</b> in plain words.</span><span class="es"><b>Tu relato</b> con palabras sencillas.</span></span></li>
+   <li><span><span class="en"><b>A follow-up question</b>: pick an answer.</span><span class="es"><b>Una pregunta de seguimiento</b>: elige una respuesta.</span></span></li>
+   <li><span><span class="en"><b>Verified sources</b> ranked by relevance (RAG).</span><span class="es"><b>Fuentes verificadas</b> ordenadas por relevancia (RAG).</span></span></li>
+   <li><span><span class="en"><b>Your case brief</b>: rule, steps, entity, documents.</span><span class="es"><b>Tu ficha del caso</b>: norma, pasos, entidad, documentos.</span></span></li>
+   <li><span><span class="en"><b>Connect with a lawyer</b> when needed.</span><span class="es"><b>Conectar con un abogado</b> cuando se necesite.</span></span></li>
+  </ol>
+  <p class="note"><span class="en">Simulated demo. Initial guidance only, not legal advice.</span><span class="es">Demo simulado. Solo orientación inicial, no asesoría legal.</span></p>
+ </div>
+ <div class="console" id="console">
+  <div class="c-head">
+   <svg viewBox="0 0 64 64" aria-hidden="true" id="scales"><g fill="none" stroke="#A9844B" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M32 22v34M22 58h20"/><g class="beam" id="beam"><path d="M10 22h44"/><path d="M10 22l-6 14h12zM54 22l-6 14h12z"/></g></g><circle cx="32" cy="16" r="4" fill="#A9844B"/></svg>
+   <div><b>TEMIS</b><small><span class="en">Virtual legal clinic</span><span class="es">Consultorio jurídico virtual</span></small></div>
+   <span class="live"><span class="en">Sources verified</span><span class="es">Fuentes verificadas</span></span>
+  </div>
+  <div class="chips" role="group" aria-label="Example cases">
+   <span class="lbl"><span class="en">Pick a case</span><span class="es">Elige un caso</span></span>
+   <button class="chip" data-case="traffic" type="button"><span class="en">Traffic fine</span><span class="es">Multa de tránsito</span></button>
+   <button class="chip" data-case="charge" type="button"><span class="en">Improper charge</span><span class="es">Cobro indebido</span></button>
+   <button class="chip" data-case="labor" type="button"><span class="en">Fired, unpaid</span><span class="es">Despido sin pago</span></button>
+   <button class="chip" data-case="lease" type="button"><span class="en">Lease deposit</span><span class="es">Depósito de arriendo</span></button>
+  </div>
+  <div class="feed" id="feed" aria-live="polite"></div>
+  <form class="ask" id="ask"><input id="ask-input" aria-label="Describe your problem" autocomplete="off" data-ph-en="Describe your problem in your own words…" data-ph-es="Describe tu problema con tus propias palabras…" placeholder="Describe your problem in your own words…"><button type="submit"><span class="en">Send</span><span class="es">Enviar</span></button></form>
+ </div>
+</div></div></section>
+<section class="tight"><div class="wrap"><div class="cta-band"><svg class="columns" viewBox="0 0 520 300" aria-hidden="true" fill="none" stroke="#fff" stroke-width="2"><path d="M20 90 L260 10 L500 90 Z"/><path d="M40 90h440M30 100h460"/><path d="M60 110v150M90 110v150M54 104h42M54 266h42"/><path d="M67 114v142"/><path d="M75 114v142"/><path d="M160 110v150M190 110v150M154 104h42M154 266h42"/><path d="M167 114v142"/><path d="M175 114v142"/><path d="M260 110v150M290 110v150M254 104h42M254 266h42"/><path d="M267 114v142"/><path d="M275 114v142"/><path d="M360 110v150M390 110v150M354 104h42M354 266h42"/><path d="M367 114v142"/><path d="M375 114v142"/><path d="M440 110v150M470 110v150M434 104h42M434 266h42"/><path d="M447 114v142"/><path d="M455 114v142"/><path d="M20 280h480M10 292h500"/></svg>
+<div style="display:grid;gap:12px;position:relative"><span class="eyebrow">TEMIS</span><h2 class="h-lg"><span class="en">Want TEMIS for your organisation?</span><span class="es">¿Quieres TEMIS para tu organización?</span></h2><p class="lead"><span class="en">Universities, firms and public entities can partner with us.</span><span class="es">Universidades, bufetes y entidades públicas pueden aliarse con nosotros.</span></p></div>
+<div class="acts" style="position:relative"><a class="btn gold" href="demo.html"><span class="en">Try the demo</span><span class="es">Probar el demo</span></a><a class="btn light" href="contact.html"><span class="en">Contact us</span><span class="es">Contáctanos</span></a></div>
+</div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="cols">
+ <div><a class="logo" href="index.html" style="color:#fff"><svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="1.4" opacity=".55"/><circle cx="32" cy="32" r="26" fill="none" stroke="currentColor" stroke-width=".8" opacity=".35"/><g fill="none" stroke="#A9844B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M32 15v32M24 48h16"/><path d="M17 22h30"/><path d="M17 22l-5 11h10zM47 22l-5 11h10z"/><path d="M12 33a5 3 0 0 0 10 0M42 33a5 3 0 0 0 10 0"/></g><circle cx="32" cy="15" r="2.4" fill="#A9844B"/></svg><span><span class="name">TEMIS</span><span class="tagline"><span class="en">Virtual legal clinic</span><span class="es">Consultorio jurídico virtual</span></span></span></a>
+ <p style="margin-top:18px;max-width:38ch"><span class="en">Clear legal guidance when you don't know where to start. Named after Themis, Greek goddess of justice.</span><span class="es">Orientación jurídica clara cuando no sabes por dónde empezar. Inspirado en Temis, diosa griega de la justicia.</span></p></div>
+ <div><h4><span class="en">Explore</span><span class="es">Explora</span></h4><ul><li><a href="solution.html"><span class="en">How it works</span><span class="es">Cómo funciona</span></a></li><li><a href="demo.html"><span class="en">Product demo</span><span class="es">Demo del producto</span></a></li><li><a href="video.html"><span class="en">Pitch video</span><span class="es">Video pitch</span></a></li></ul></div>
+ <div><h4><span class="en">Research</span><span class="es">Investigación</span></h4><ul><li><a href="research.html#articles"><span class="en">Articles</span><span class="es">Artículos</span></a></li><li><a href="research.html#patents"><span class="en">Patents</span><span class="es">Patentes</span></a></li><li><a href="research.html#references"><span class="en">References</span><span class="es">Referencias</span></a></li></ul></div>
+ <div><h4><span class="en">Contact</span><span class="es">Contacto</span></h4><ul><li><a href="contact.html"><span class="en">For people</span><span class="es">Para personas</span></a></li><li><a href="contact.html#companies"><span class="en">For firms &amp; institutions</span><span class="es">Para bufetes e instituciones</span></a></li><li>Bogotá, Colombia</li></ul></div>
+</div>
+<div class="legal"><span>© 2026 TEMIS · Óscar Leonel Peña Báez · Laura Salazar · Rafael Garzon · UMNG</span><span><span class="en">TEMIS offers initial guidance and does not replace a lawyer.</span><span class="es">TEMIS ofrece orientación inicial y no reemplaza a un abogado.</span></span></div>
+</div></footer>
+<script src="assets/app.js"></script>
+<script src="assets/demo.js"></script>
+</body>
+</html>
