@@ -1,6 +1,6 @@
 /* ================= CONFIG: fill these in ================= */
 const TEMIS_CONFIG = {
-  VIDEO_URL: "",      // YouTube or Google Drive link of the pitch video
+  VIDEO_URL: "https://www.youtube.com/watch?v=pkRowL3nou4",      // YouTube or Google Drive link of the pitch video
   DOSSIER_URL: "docs/TEMIS-investigacion.pdf",    // research PDF (hosted in this repo)
   CONTACT_EMAIL: ""   // email that receives contact requests
 };
